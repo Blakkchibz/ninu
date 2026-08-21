@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Jiji 💖 — Ninuoluwa Poroye</title>
+  <meta name="description" content="A love letter written in code — for Ninuoluwa.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>">
+</head>
+<body>
+
+  <!-- Floating Hearts Canvas -->
+  <canvas id="hearts-canvas"></canvas>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-name">Ninuoluwa</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-nickname">Jiji 💕</p>
+      <p class="hero-tagline">"Some people arrive in your life and you just know — they were meant to stay in your heart."</p>
+    </div>
+
+    <a href="#letter" class="scroll-indicator">
+      <span>scroll down</span>
+      <div class="scroll-heart">💗</div>
+    </a>
+  </section>
+
+  <!-- ============================================
+       LOVE LETTER SECTION
+       ============================================ -->
+  <section class="love-letter-section" id="letter">
+    <h2 class="section-title reveal">
+      A Letter for You <em class="heart-icon">💌</em>
+    </h2>
+
+    <div class="letter-card reveal reveal-delay-2">
+      <!-- Decorative elements -->
+      <span class="letter-decoration">🌸</span>
+      <span class="letter-decoration">✨</span>
+      <span class="letter-decoration">🌷</span>
+      <span class="letter-decoration">💫</span>
+
+      <p class="letter-greeting">Hey Jiji,</p>
+
+      <div class="letter-body">
+        <p>
+          So yes — I actually built you a whole website. I told you I would
+          and here it is. Very extra, I know. But when have I ever done
+          anything halfway? 😂
+        </p>
+        <p>
+          I know we've had our ups and downs — and honestly, I just want
+          to leave all of that behind us. What matters to me is right now,
+          and right now I'm really glad you're in my life.
+        </p>
+        <p>
+          It's wild that we're in different states and yet you're still
+          one of the people I talk to the most. Our WhatsApp conversations
+          are easily the highlight of my day and I mean that. You make
+          even the most random topics feel interesting.
+        </p>
+        <p>
+          You're one of those rare people, Jiji. The kind that makes
+          you laugh until your stomach hurts, the kind that actually
+          listens, the kind you don't forget. And trust me — I've tried 😂.
+          Spoiler: it didn't work.
+        </p>
+        <p>
+          I really do think you're incredible. Like genuinely, ridiculously,
+          unfairly incredible. And I just wanted you to have something
+          that reminds you of that whenever you need it.
+        </p>
+        <p>
+          So here — a little corner of the internet that's all about you.
+          Scroll through, watch the videos, and know that someone out
+          here thinks the world of you. Always. 💖
+        </p>
+      </div>
+
+      <p class="letter-closing">
+        Your friendly neighbourhood helicopter,<br>
+        Chibueze 🙃
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================
+       VIDEO GALLERY SECTION
+       ============================================ -->
+  <section class="gallery-section" id="gallery">
+    <h2 class="section-title reveal">
+      Moments of You <em class="heart-icon">🎬</em>
+    </h2>
+
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Videos are injected via JavaScript -->
+    </div>
+  </section>
+
+  <!-- ============================================
+       VIDEO LIGHTBOX
+       ============================================ -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous video">‹</button>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next video">›</button>
+      <video id="lightbox-video" controls controlsList="nodownload">
+        <source src="" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <p class="footer-message reveal">You will always be my favourite story 💕</p>
+    <p class="footer-credit reveal reveal-delay-1">
+      Made with <span class="heart">💖</span> just for you, Jiji
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
