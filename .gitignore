@@ -1,0 +1,5 @@
+# Audio files
+*.ogg
+
+# Planning docs
+implementation_plan.md
